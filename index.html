@@ -663,7 +663,7 @@
         });
 
         // Close mobile menu when clicking links
-        document.querySelectorAll('nav a').forEach(link => {
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
             link.addEventListener('click', () => {
                 document.getElementById('mobile-menu').classList.add('hidden');
             });
